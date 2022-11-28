@@ -1,0 +1,117 @@
+body{
+    height:721px;
+    width:1536px;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+html, body, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* ë°•ìŠ¤ì˜ í¬ê¸°ë¥¼ ë°•ìŠ¤ì˜ í…Œë‘ë¦¬ê¹Œì§€ í¬í•¨ì‹œí‚´ */
+    font-family: 'Gamja Flower', 'cursive'; /* ì„¤ì •í•´ë†“ì€ ì›¹ í°íŠ¸ ì§€ì •, cursiveëŠ” í•„ê¸°ì²´ */
+}
+
+button {
+    font-family: 'Gamja Flower', 'cursive';
+    background: cornflowerblue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.list-box {
+    width: 750px;
+    margin: 100px auto; /* ìœ„, ì•„ëž˜ëŠ” 100px / ì¢Œ, ìš°ëŠ” ì¤‘ì•™ìœ¼ë¡œ ì •ë ¬ */
+    border: 1px solid white;
+    padding: 20px 30px 50px; /* ìœ„ 20 ì˜¤ë¥¸ìª½, ì™¼ìª½ 30 ì•„ëž˜ 50 */
+    position: absolute;
+    left: 40px;
+    
+}
+
+.list-box h1 {
+    text-align: center;
+    color: royalblue;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.write-box {
+    width: 100%;
+    height: 35px;
+}
+
+ /* ìž…ë ¥ì°½ */
+.write-box input {
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.write-box button {
+    width: 20%;
+    border: none;
+    height: 100%;
+}
+
+.list-table {
+    border-spacing: 0px; /* ì…€ í…Œë‘ë¦¬ ê°„ê²© ì—†ìŒ */
+    border-collapse: collapse; /* ì…€ í…Œë‘ë¦¬ ì„  ê²¹ì³ì„œ í‘œí˜„ */
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    font-size: 20px;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+}
+
+th {
+    background: lightblue;
+}
+
+td {
+    background: white;
+}
+
+tbody td:first-child {
+    text-align: center;
+}
+
+.btn-area {
+    text-align: right;
+}
+
+.btn-area button {
+    height: 35px;
+    padding: 0 10px;
+    border: none;
+}
+
+img {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    right: 57px;
+    top: 117px;
+}
+.container{
+background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div#weather {
+    text-align: center;
+}
+
+span#weather_cloud {
+    margin:20px;
+    
+}
